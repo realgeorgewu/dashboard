@@ -47,7 +47,7 @@ func TestIsSelectorMatching(t *testing.T) {
 			t.Errorf("isSelectorMatching(%+v, %+v) == %+v, expected %+v",
 				c.serviceSelector, c.replicationControllerSelector, actual, c.expected)
 		}
-		fmt.Println("georgewu")
+		fmt.Println("georgewu123")
 	}
 }
 
