@@ -15,6 +15,7 @@
 package api
 
 import (
+	"fmt"
 	"testing"
 
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -46,6 +47,7 @@ func TestIsSelectorMatching(t *testing.T) {
 			t.Errorf("isSelectorMatching(%+v, %+v) == %+v, expected %+v",
 				c.serviceSelector, c.replicationControllerSelector, actual, c.expected)
 		}
+		fmt.Println("georgewu")
 	}
 }
 
